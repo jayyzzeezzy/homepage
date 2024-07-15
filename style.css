@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: green;
+    display: flex;
+}
+
+.header-pic {
+    width: 400px;
+    height: 400px;
+}
+
+main {
+    background-color: white;
+}
+
+.project-grid {
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    background-color: blue;
+}
+
+.contact-info {
+    width: 400px;
+    height: 400px;
+}
