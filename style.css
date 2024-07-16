@@ -10,8 +10,7 @@ header {
 }
 
 .header-pic {
-    width: 400px;
-    height: 400px;
+    min-height: fit-content;
 }
 
 main {
