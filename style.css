@@ -4,13 +4,62 @@
     box-sizing: border-box;
 }
 
+header::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgb(110, 0, 173);
+    position: absolute;
+    bottom: 45%;
+    left: 0px;
+    transform: skewY(-10deg);
+    z-index: -1;
+}
+
 header {
-    background-color: green;
+    padding: 40px;
+    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-pic {
     min-height: fit-content;
+}
+
+.name {
+    color: white;
+    position: absolute;
+    left: 420px;
+    bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.about-me-wrap {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px gray;
+    overflow: hidden;
+}
+
+.about-me-title {
+    margin-bottom: 20px;
+}
+
+.about-me-paragraph {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+.social-icons > i {
+    font-size: 1.5rem;
 }
 
 main {
