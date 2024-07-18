@@ -71,6 +71,10 @@ main {
     padding: 40px;
 }
 
+.students-title {
+    margin-bottom: 20px;
+}
+
 .student-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr));
@@ -98,10 +102,40 @@ main {
 }
 
 footer {
+    padding: 40px;
+    margin-top: 40px;
     background-color: rgb(110, 0, 173);
+    
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
 }
 
 .contact-info {
-    width: 400px;
-    height: 400px;
+    color: white;
+    margin: 60px 40px;
+}
+
+.contact-info h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.devicon-github-original,
+.devicon-linkedin-plain,
+.devicon-twitter-original {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.contact-picture img {
+    box-shadow: 0px 0px 10px 0px gray;
+    margin: 60px 40px;
 }
