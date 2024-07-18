@@ -102,7 +102,7 @@ main {
 }
 
 footer {
-    padding: 40px;
+    padding: 0px 40px;
     margin-top: 40px;
     background-color: rgb(110, 0, 173);
     
@@ -115,7 +115,7 @@ footer {
 
 .contact-info {
     color: white;
-    margin: 60px 40px;
+    margin: 40px;
 }
 
 .contact-info h2 {
@@ -137,5 +137,5 @@ footer {
 
 .contact-picture img {
     box-shadow: 0px 0px 10px 0px gray;
-    margin: 60px 40px;
+    margin: 40px;
 }
