@@ -139,3 +139,29 @@ footer {
     box-shadow: 0px 0px 10px 0px gray;
     margin: 40px;
 }
+
+@media (min-width: 800px) and (max-width: 1100px) {
+    header,
+    .about-me-wrap,
+    .header-pic {
+        display: block;
+    }
+
+    .header-pic {
+        float: left;
+        margin-right: 10px;
+        position: relative;
+        top: -20px;
+        left: -20px;
+    }
+
+    .header-pic .name {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .about-me-wrap {
+        overflow: visible;
+    }
+}
