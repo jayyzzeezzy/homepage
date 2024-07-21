@@ -212,3 +212,15 @@ footer {
         padding: 20px;
     };
 }
+
+@media (min-width: 1400px) {
+    header::before {
+        transform: skewY(-8deg);
+    }
+
+    header,
+    main,
+    footer {
+        padding: 80px;
+    }
+}
