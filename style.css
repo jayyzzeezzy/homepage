@@ -25,7 +25,7 @@ header {
 }
 
 .header-pic {
-    min-height: fit-content;
+    position: relative;
 }
 
 picture img {
@@ -35,8 +35,8 @@ picture img {
 .name {
     color: white;
     position: absolute;
-    left: 420px;
-    bottom: 50px;
+    left: 40%;
+    bottom: 10px;
     font-size: 2.5rem;
 }
 
@@ -140,7 +140,7 @@ footer {
     margin: 40px;
 }
 
-@media (min-width: 800px) and (max-width: 1100px) {
+@media (min-width: 700px) and (max-width: 1100px) {
     header,
     .about-me-wrap,
     .header-pic {
@@ -157,11 +157,58 @@ footer {
 
     .header-pic .name {
         position: absolute;
-        left: 0px;
-        bottom: 0px;
+        left: 30%;
+        bottom: 10px;
+        font-size: 2rem;
     }
 
     .about-me-wrap {
         overflow: visible;
+        margin: 20px;
     }
+}
+
+@media (max-width: 770px) {
+    .contact-info {
+        margin: 20px;
+    }
+
+    .contact-picture img {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    header,
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-pic {
+        margin-bottom: 20px;
+    }
+
+    .header-pic .name {
+        bottom: 10px;
+        left: 40%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 330px) {
+    header,
+    main,
+    footer {
+        padding: 20px;
+    };
 }
